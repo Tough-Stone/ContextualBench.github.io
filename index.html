@@ -1,121 +1,108 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="ContextualBench">
-  <meta property="og:title" content="ContextualBench"/>
-  <meta property="og:description" content="Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images"/>
-  <meta property="og:url" content="https://contextualbench.github.io/"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+    <head>
+        <meta charset="utf-8">
+        <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+        <!-- Replace the content tag with appropriate information -->
+        <meta name="description" content="ContextualBench">
+        <meta property="og:title" content="ContextualBench"/>
+        <meta property="og:description" content="Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images"/>
+        <meta property="og:url" content="https://contextualbench.github.io/"/>
+        <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+        <meta property="og:image" content="static/image/your_banner_image.png" />
+        <meta property="og:image:width" content="1200"/>
+        <meta property="og:image:height" content="630"/>
 
 
-  <meta name="twitter:title" content="WHOOPS! Benchmark">
-  <meta name="twitter:description" content="Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/nitzangu_Albert_Einstein_holds_an_iphone_realistic_style_ba15ea7b-b829-478b-adef-b474ccf01a2a.png">
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="Vision-and-Language Benchmark, Synthetic and Compositional Images">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="twitter:title" content="WHOOPS! Benchmark">
+        <meta name="twitter:description" content="Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images">
+        <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+        <meta name="twitter:image" content="static/images/nitzangu_Albert_Einstein_holds_an_iphone_realistic_style_ba15ea7b-b829-478b-adef-b474ccf01a2a.png">
+        <meta name="twitter:card" content="summary_large_image">
+        <!-- Keywords for your paper to be indexed by-->
+        <meta name="keywords" content="Vision-and-Language Benchmark, Synthetic and Compositional Images">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <title>ContextualBench</title>
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
+        <title>ContextualBench</title>
+        <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+        <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
 
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
+        <link rel="stylesheet" href="static/css/bulma.min.css">
+        <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+        <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+        <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+        <link rel="stylesheet" href="static/css/index.css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script src="static/js/bulma-carousel.min.js"></script>
-  <script src="static/js/bulma-slider.min.js"></script>
-  <script src="static/js/index.js"></script>
-</head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+        <script defer src="static/js/fontawesome.all.min.js"></script>
+        <script src="static/js/bulma-carousel.min.js"></script>
+        <script src="static/js/bulma-slider.min.js"></script>
+        <script src="static/js/index.js"></script>
+    </head>
+
+
 <body>
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container is-max-desktop">
+                <div class="columns is-centered">
+                    <div class="column has-text-centered">
+                        <h1 class="title is-1 publication-title">Challenging and Enhancing the Reasoning Capacity of Multimodal LLMs in Context-violating Images</h1>
+                        
+                        <!-- Paper authors -->
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">
+                                <a href="https://github.com/Tough-Stone/" target="_blank">Hongxi Li</a>,&nbsp;
+                            </span>
+                            <span class="author-block">
+                                <a href="https://wuxinxiao.github.io/" target="_blank">Yuyang Chen</a>,&nbsp;
+                            </span>
+                            <span class="author-block">
+                                <a href="https://wuxinxiao.github.io/" target="_blank">Yayun Qi</a>,&nbsp;
+                            </span>
+                            <span class="author-block">
+                                <a href="https://wuxinxiao.github.io/" target="_blank">Xinxiao Wu</a>,&nbsp;
+                            </span>
+                        </div>
+                        <!-- Paper prganization -->
+                        <div class="is-size-5 publication-authors">
+                            <span class="author-block">Beijing Institute of Technology&nbsp;&nbsp;</span>
+                        </div>
+                        <!-- Link -->
+                        <span class="link-block">
+                            <a href="https://huggingface.co/datasets/ToughStone/ContextualBench" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                                <span class="icon">
+                                    <p style="font-size:20px">&#x1F917;</p>
+                                </span>
+                            <span>Dataset</span>
+                            </a>
+                        </span>
+                        <span class="link-block">
+                            <a href="https://huggingface.co/spaces/ToughStone/ContextualBench_Leaderboard" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                                <span>🏆 Leaderboard</span>
+                            </a>
+                        </span>
+                        <span class="link-block">
+                            <a href="https://github.com/Tough-Stone/Counter-Context-Reasoning" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                                <span>🧑‍💻 Code</span>
+                            </a>
+                        </span>
+                        <span class="link-block">
+                            <a href="" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                                <span>📄 Paper</span>
+                            </a>
+                        </span>
 
-<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">-->
-
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Challenging and Enhancing the Reasoning Capacity of Multimodal LLMs in Context-violating Images</h1>
-            
-            <!-- Paper authors -->
-            <div class="is-size-5 publication-authors">
-              <span class="author-block">
-                <a href="https://github.com/Tough-Stone/" target="_blank">Hongxi Li</a>,&nbsp;
-              </span>
-              <span class="author-block">
-                <a href="https://wuxinxiao.github.io/" target="_blank">Yuyang Chen</a>,&nbsp;
-              </span>
-              <span class="author-block">
-                <a href="https://wuxinxiao.github.io/" target="_blank">Yayun Qi</a>,&nbsp;
-              </span>
-              <span class="author-block">
-                  <a href="https://wuxinxiao.github.io/" target="_blank">Xinxiao Wu</a>,&nbsp;
-              </span>
+                    </div>
+                </div>
             </div>
-
-            <!-- Paper prganization -->
-            <div class="is-size-5 publication-authors">
-              <span class="author-block">Beijing Institute of Technology&nbsp;&nbsp;</span>
-            </div>
-            <br>
-
-            <!-- Link -->
-            <span class="link-block">
-              <a href="https://huggingface.co/datasets/ToughStone/ContextualBench" target="_blank"
-                class="external-link button is-normal is-rounded is-dark">
-                <span class="icon">
-                  <p style="font-size:20px">&#x1F917;</p>
-                </span>
-                <span>Dataset</span>
-              </a>
-            </span>
-
-	      <span class="link-block">
-		  <a href="https://huggingface.co/spaces/ToughStone/ContextualBench_Leaderboard" target="_blank"
-		  class="external-link button is-normal is-rounded is-dark">
-		  <span>🏆 Leaderboard</span>
-		</a>
-	      </span>
-
-	      <span class="link-block">
-		  <a href="https://github.com/Tough-Stone/Counter-Context-Reasoning" target="_blank"
-		  class="external-link button is-normal is-rounded is-dark">
-		  <span>🧑‍💻 Code</span>
-		</a>
-	      </span>
-
-	      <span class="link-block">
-		  <a href="" target="_blank"
-		  class="external-link button is-normal is-rounded is-dark">
-		  <span>📄 Paper</span>
-		</a>
-	      </span>
-
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
