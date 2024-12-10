@@ -9,9 +9,9 @@
         <meta property="og:description" content="Breaking Common Sense: WHOOPS! A Vision-and-Language Benchmark of Synthetic and Compositional Images"/>
         <meta property="og:url" content="https://contextualbench.github.io/"/>
         <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-        <meta property="og:image" content="static/image/your_banner_image.png" />
+        <!-- <meta property="og:image" content="static/image/fable.png" />
         <meta property="og:image:width" content="1200"/>
-        <meta property="og:image:height" content="630"/>
+        <meta property="og:image:height" content="630"/> -->
 
 
         <meta name="twitter:title" content="WHOOPS! Benchmark">
@@ -25,7 +25,7 @@
 
 
         <title>ContextualBench</title>
-        <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="static/images/fable.png">
         <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
 
@@ -104,18 +104,19 @@
             </div>
         </section>
 
-        <!-- Paper abstract -->
+        <!-- Image demo -->
         <section class="section hero is-light">
             <div class="container is-max-desktop">
                 <div class="columns is-centered has-text-centered">
                     <div class="publication-flipped">
                         <h2 class="title is-3">Dose these images conform to the given contexts?</h2>
-                        
                         <div class="content has-text-justified">
                             <div class="flip-box-container">
                                 <div class="flip-box">
                                     <div class="flip-box-inner">
-                                        <div class="flip-box-front"><img src="static/images/e-f-7-5.webp" alt="Paris" style="width:300px;height:300px"></div>
+                                        <div class="flip-box-front">
+                                            <img src="static/images/e-f-7-5.webp" alt="Paris" style="width:300px;height:300px">
+                                        </div>
                                         <div class="flip-box-back">
                                             <h2><br><br>《Copper Combustion Experiment》</h2>
                                             <p class="has-text-weight-bold">This image does not align with the "copper combustion experiment" because copper burning produces a green flame, not a yellow one.</p>
@@ -125,7 +126,9 @@
 
                                 <div class="flip-box">
                                     <div class="flip-box-inner">
-                                        <div class="flip-box-front"><img src="static/images/c-f-1-5.webp" alt="Paris" style="width:300px;height:300px"></div>
+                                        <div class="flip-box-front">
+                                            <img src="static/images/c-f-1-5.webp" alt="Paris" style="width:300px;height:300px">
+                                        </div>
                                         <div class="flip-box-back">
                                             <h2><br><br>《Santra Claus》</h2>
                                             <p class="has-text-weight-bold">This image does not correspond to Santa Claus because Santa Claus is an elderly man, not a young boy, and his vehicle is pulled by reindeer, not sled dogs, and it should be loaded with gifts, not pumpkins.</p>
@@ -135,7 +138,9 @@
 
                                 <div class="flip-box">
                                     <div class="flip-box-inner">
-                                        <div class="flip-box-front"><img src="static/images/b-f-2-5.webp" alt="Paris" style="width:300px;height:300px"></div>
+                                        <div class="flip-box-front">
+                                            <img src="static/images/b-f-2-5.webp" alt="Paris" style="width:300px;height:300px">
+                                        </div>
                                         <div class="flip-box-back">
                                             <h2><br><br>《Life of Pi》</h2>
                                             <p class="has-text-weight-bold">This image does not correspond to the story of "Life of Pi," because the original story features a boy and a tiger drifting on a wooden boat, whereas the image shows a girl and a kitten, and they are on a motorboat instead.</p>
@@ -144,7 +149,67 @@
                                 </div>
                             </div>
                         </div>
-                        
+                    </div>  
+                </div>
+            </div>
+
+            <div class="container is-max-desktop">
+                <div class="columns is-centered has-text-centered">
+                    <div class="publication-flipped">    
+                        <div class="content has-text-justified">
+                            <div class="flip-box-container">
+                                <div class="flip-box">
+                                    <div class="flip-box-inner">
+                                        <div class="flip-box-front">
+                                            <img src="static/images/b-f-1-4.webp" alt="Paris" style="width:300px;height:300px">
+                                        </div>
+                                        <div class="flip-box-back">
+                                            <h2><br><br>《Little Red Riding Hood》</h2>
+                                            <p class="has-text-weight-bold">This image does not align with the story of Little Red Riding Hood, because in the original tale, Red Riding Hood is a young girl, not an old lady, and the animal that appears is a big grey wolf, not a squirrel.</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="flip-box">
+                                    <div class="flip-box-inner">
+                                        <div class="flip-box-front">
+                                            <img src="static/images/b-f-3-1.webp" alt="Paris" style="width:300px;height:300px">
+                                        </div>
+                                        <div class="flip-box-back">
+                                            <h2><br><br>《The Little Match Girl》</h2>
+                                            <p class="has-text-weight-bold">This image does not match the story of "The Little Match Girl," because the original story takes place on a snowy day, not a rainy one.</p>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="flip-box">
+                                    <div class="flip-box-inner">
+                                        <div class="flip-box-front">
+                                            <img src="static/images/d-f-1-5.webp" alt="Paris" style="width:300px;height:300px">
+                                        </div>
+                                        <div class="flip-box-back">
+                                            <h2><br><br>《Wu Song Fights the Tiger》</h2>
+                                            <p class="has-text-weight-bold">This image does not correspond to the story of "Wu Song Fighting the Tiger" because the protagonist in the original story is an adult man, but in the picture, it is a little boy, and he is happily playing with the tiger.</p>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+
+                            <style>
+                                .link-container {
+                                  text-align: right; /* 这将使得容器内的内容右对齐 */
+                                }
+                            </style>
+
+                            <br>
+                            <div class="link-container">
+                                <span class="link-block">
+                                    <a href="https://huggingface.co/datasets/ToughStone/ContextualBench" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                                    <span>More</span>
+                                    </a>
+                                </span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -160,44 +225,47 @@
                             <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">Abstract             </h2>
                             <h3 class="subtitle is-size-4-tablet has-text-left has-background-info-light pr-4 pl-4 pt-3 pb-3">
                             <p>
-                            Weird, unusual, and uncanny images pique the curiosity of observers because they challenge commonsense.
-                            <br>For example, an image released during the 2022 world cup depicts the famous soccer stars Lionel Messi and Cristiano Ronaldo playing chess, which playfully violates our expectation that their competition should occur on the football field.
-                            Humans can easily recognize and interpret these unconventional images, but can AI models do the same? We introduce WHOOPS!, a new dataset and benchmark for visual commonsense. The dataset is comprised of purposefully commonsense-defying images created by designers using publicly-available image generation tools like Midjourney.
-                            <br>We consider several tasks posed over the dataset. In addition to image captioning, cross-modal matching, and visual question answering, we introduce a difficult explanation generation task, where models must identify and explain why a given image is unusual.
-                            <br>Our results show that state-of-the-art models such as GPT3 and BLIP2 still lag behind human performance on WHOOPS!. We hope our dataset will inspire the development of AI models with stronger visual commonsense reasoning abilities.
+                            Context-violating images contain visual information that is consistent with common sense but conflicts with a given context.
+                            For example, given the story of ‘Little Red Riding Hood’, an image depicting an old lady in a red hat finding a squirrel in the woods is a context-violating image, even though it looks visually plausible without the background story.
+                            <br>Humans can easily identify and explain whether an image is consistent with the implicit constraints of a specific context, but can Multimodal Large Language Models (MLLMs) achieve similar performance?
+                            <br>To explore the contextual reasoning capacity of MLLMs, we construct ContextualBench, a benchmark dataset consisting of contextviolating images generated by text-to-image models.
+                            Each image is associated with a specific context and several constraints, and five types of context are defined in total.
+                            <br>We use 10 MLLMs for four reasoning tasks on ContextualBench, and the results demonstrate that they fail to accurately identify and explain context-violating images, significantly falling behind human performance.
+                            <br>As a pioneering step towards enhancing the contextual reasoning capacity of MLLMs, we propose a framework that retrieves context-related knowledge from external resources and integrates it into the inference phase of MLLMs.
+                            <br>Our research suggests that contextual reasoning remains an open challenge, and the integration of context-related knowledge is crucial for realizing trustworthy artificial intelligence.
                             </p>
                             </h3>
                         </div>
 
                         <div class="item">
                             <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
-                            Collecting Weird Images
+                            ContextualBench Introduction
                             </h2>
                             <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
                             <p>
-                            WHOOPS! is a dataset of 500 synthetic images and 10,874 annotations designed to challenge AI models' ability to reason about commonsense and compositionality. To construct WHOOPS!, we collaborate with designers who use text-to-image models such as Midjourney and DALL-E to generate images that would be challenging (or even impossible) to collect otherwise.
-                            WHOOPS! contains commonsense-defying image from a wide range of reasons, deviations from expected social norms and everyday knowledge.
-                            <br><br>
-                            <img src="static/images/clusters.png"  alt="MY ALT TEXT"/>
+                            <img src="static/images/description.png"  alt="MY ALT TEXT"/>
+                            ● ContextualBench conprises six categories of contexts: fable, fairytale, science, history, folklore, and movie, with each category comprising 12 contexts.
+                            <!-- We construct several knowledge constraints and generate context-consistent/context-violating images using a text-to-image model for each context. -->
+                            <br>
+                            ● We perform content review and filtering during the iterative process of image generation to ensure that the produced images: (1) do not contain visual illusions, (2) adhere to the specified constraint conditions, and (3) steer clear of potential offensiveness.
                             </p>
                             </h3>
                         </div>
 
                         <div class="item">
                             <h2 class="subtitle is-size-3-tablet has-text-weight-bold has-text-centered has-background-info-light mr-0 pt-3 pb-3">
-                            Using Weird Images to Create V&L Tasks
+                            Create V&L Tasks for Generated Images
                             </h2>
                             <h3 class="subtitle is-size-4-tablet has-text-left pr-4 pl-4 pt-3 pb-3">
                             <p>
-                            The WHOOPS! benchmark includes four tasks:
+                                We design four visual reasoning tasks on Contextual-Bench:
                             <ol class="pr-2 pl-6">
-                                <li>A novel task of explanation-of-violation: generating a detailed explanation for what makes the image weird</li>
-                                <li>Generating a literal caption</li>
-                                <li>Distinguishing between detailed and underspecified captions</li>
-                                <li>Answering questions that test compositional understanding</li>
+                                <li>Image identification: evaluating whether an image conforms to a given context</li>
+                                <li>Image explanation: providing detailed explanations when an image does not conform to the context</li>
+                                <li>Image captioning: generating visual descriptions that include the context constraints</li>
+                                <li>Visual question answering: asking and answering questions about entities and attributes in the context constraints</li>
                             </ol>
-                                <br><br>
-                            <img src="static/images/benchmarking.png"/>
+                            <img src="static/images/example.png"/>
                             </p>
                             </h3>
                         </div>
@@ -208,15 +276,6 @@
         </section>
         <!-- End image carousel -->
 
-        <section class="hero is-small">
-            <div class="hero-body">
-                <div class="container">
-                <h3 class="subtitle is-size-4-tablet has-background-info-light has-text-left pr-4 pl-4 pt-3 pb-3">
-                We collect <i>normal</i> (synthetic, not weird) and <i>natural</i> (non-synthetic, not weird) images to investigate the main challenge in WHOOPS!. BLIP2 model performs well on <i>non-weird</i> cases but struggles on weird ones, indicating that weirdness is the primary challenge, not synthesis.
-                </h3>
-                </div>
-            </div>
-        </section>
 
         <footer class="footer">
             <div class="container">
